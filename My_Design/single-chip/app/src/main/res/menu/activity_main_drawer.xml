@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="主页"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_lesson"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="课程" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="通知" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="下载" />
+    </group>
+
+</menu>
